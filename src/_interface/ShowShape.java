@@ -1,4 +1,4 @@
-package _interface.IShape;
+package _interface;
 
 public class ShowShape {
     public static void main(String[] args){
@@ -8,6 +8,7 @@ public class ShowShape {
         IShape r2 = new Recttangle(4,5);
         IShape[] list = {c1,c2,r1,r2};
         for (IShape s:list){
+
             System.out.println(s.getArea()+"\n"+s.getPerimeter());
         }
     }

@@ -1,4 +1,4 @@
-package _interface.IShape;
+package _interface;
 
 public class Circle implements IShape{
     double radius;

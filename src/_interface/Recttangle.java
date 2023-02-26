@@ -1,4 +1,4 @@
-package _interface.IShape;
+package _interface;
 
 public class Recttangle implements IShape{
     double length;

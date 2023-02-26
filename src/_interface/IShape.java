@@ -1,4 +1,4 @@
-package _interface.IShape;
+package _interface;
 
 public interface IShape {
     public double getArea();
